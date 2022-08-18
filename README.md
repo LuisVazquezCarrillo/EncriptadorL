@@ -10,13 +10,28 @@ Ingresa a la pagina por este link:  [Encriptador](https://luisvazquezcarrillo.gi
 
 ## Requisitos
 
-| Letra | Encriptado |
+##### Encriptar
+Estos son los requisitos para poder encriptar, todas las letras que se muestran en la tabla serán las únicas letras que se encriptarán.
+
+| Letra | Encriptado | 
 | --- | --- |
 | e | enter |
 | i | imes |
 | a | ai |
 | o | ober |
 | u | ufat |
+
+##### Desencriptar
+Estos son los requisitos para poder desencriptar, todas lo encriptado que se muestran en la tabla serán las únicas encriptaciones que se cambiaran a su letra original.
+
+| Encriptado | Letra | 
+| --- | --- |
+| enter | e |
+| imes | i |
+| ai | a |
+| ober | o |
+| ufat | u |
+
 
 
 ## Pruebas del encriptador
