@@ -1,1 +1,20 @@
-# EncriptadorL
+# Challenge Encriptador Alura Latam
+
+Es un **challenge** que se otorgo a todos la comunidad del programa Oracle Next Education **(ONE)**.
+
+Consistió en desarrollar una página web que tiene como finalidad encriptar textos que se ingresen o desencriptar estos mismos textos. El principal objetivo es practicar y desarrollar páginas web funcionales junto **HTML, CSS y JS**
+
+## Enlace
+
+Ingresa a la pagina por este link:  [Encriptador](https://luisvazquezcarrillo.github.io/EncriptadorL/).
+
+
+
+## Pruebas del encriptador
+
+### Prueba del encriptador en vista Desktop
+![gif encriptador](https://i.imgur.com/BQ3z87c.gif)
+
+### Prueba del encriptador responsivo.
+![gif encriptador](https://i.imgur.com/UuKBlZC.gif)
+
