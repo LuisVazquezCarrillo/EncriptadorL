@@ -22,7 +22,7 @@ Estos son los requisitos para poder encriptar, todas las letras que se muestran 
 | u | ufat |
 
 ##### Desencriptar
-Estos son los requisitos para poder desencriptar, todas lo encriptado que se muestran en la tabla serán las únicas encriptaciones que se cambiaran a su letra original.
+Estos son los requisitos para poder desencriptar, todo lo encriptado que se muestran en la tabla serán las únicas encriptaciones que se cambiaran a su letra original.
 
 | Encriptado | Letra | 
 | --- | --- |
