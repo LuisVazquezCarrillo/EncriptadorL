@@ -8,6 +8,15 @@ Consistió en desarrollar una página web que tiene como finalidad encriptar tex
 
 Ingresa a la pagina por este link:  [Encriptador](https://luisvazquezcarrillo.github.io/EncriptadorL/).
 
+## Requisitos
+
+| Letra | Encriptado |
+| --- | --- |
+| e | enter |
+| i | imes |
+| a | ai |
+| o | ober |
+| u | ufat |
 
 
 ## Pruebas del encriptador
