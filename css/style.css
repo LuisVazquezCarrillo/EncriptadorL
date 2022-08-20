@@ -154,7 +154,7 @@ section {
   color: #b4b4b4;
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px) {
+@media screen and (max-width: 961px) and (min-width: 566px) {
   .row {
     flex-direction: column;
   }
@@ -245,7 +245,10 @@ section {
   }
 }
 
-@media screen and (max-width: 1800px) and (min-width: 901px) {
+/*
+MEDIA QUERY PARA MAX-WIDTH 1920PX Y MIN-WIDTH 962PX
+*/
+@media screen and (max-width: 1920px) and (min-width: 962px) {
   aside {
     flex: 55%;
     background-color: #f3f5fc;
@@ -273,9 +276,165 @@ section {
     display: inline-block;
     box-sizing: border-box;
     position: relative;
+    width: 360px;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 18px;
+    border: none;
+    padding: 8px;
+    background-color: #0a3871;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .botonD {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    width: 360px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 18px;
+    padding: 8px;
+    background-color: #f3f5fc;
+    color: #0a3871;
+    border: 1px solid #0a3871;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .cajaTexto {
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+
+  aside .cajaTexto{
+    padding-left: 200px;
+  }
+
+  #textoEntrada {
+    overflow: hidden;
+    display: block;
+  }
+
+  .cajaTexto textarea {
+    width: 70%;
+    height: 330px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    resize: none;
+    outline: none;
+    border: none;
+    color: #0a3871;
+    background-color: #f3f5fc;
+    display: block;
+  }
+  .cajaEncriptacion {
+    width: 300px;
+    height: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+  }
+
+  .cajaEncriptacion textarea {
+    width: 100%;
+    height: 88%;
+    font-size: 22px;
+    padding-bottom: 10px;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: #ffffff;
+    display: none;
+  }
+
+  #copiar {
+    display: none;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #ffff;
+    color: #0a3871;
+    cursor: pointer;
+    border: 1px solid #0a3871;
+  }
+
+  #cajaImg {
+    position: relative;
+    box-sizing: border-box;
+    top: 14%;
+    left: 2px;
+  }
+  #muneco {
+    display: inline-block;
+    width: 200px;
+  }
+
+  #ninguno {
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  #ingresa {
+    margin: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: #b4b4b4;
+  }
+}
+
+/*
+MEDIA QUERY PARA MÁS ALLÁ DE 1920PX
+*/
+@media screen and (min-width: 1920px) {
+
+
+  aside {
+    flex: 35%;
+    background-color: #f3f5fc;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  section {
+    flex: 100px;
+    background-color: #f3f5fc;
+    display: inline-block;
+    height: 400px;
+  }
+
+  .logo {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+  }
+
+  .botonE {
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
     width: 400px;
     height: 60px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 18px;
     border: none;
     padding: 8px;
@@ -304,9 +463,13 @@ section {
   .cajaTexto {
     display: inline-block;
     width: 100%;
-    margin-left: 200px;
+    height: 100%;
     box-sizing: border-box;
     margin-bottom: 30px;
+  }
+
+  aside .cajaTexto{
+    padding-left: 200px;
   }
 
   #textoEntrada {
