@@ -4,6 +4,10 @@ img {
   margin: 0;
 }
 
+*, *:before, *:after {
+    transition: all 0.40s cubic-bezier(0, 0.88, 1, 1);
+}
+
 body {
   background-color: #f3f5fc;
 }
